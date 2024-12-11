@@ -1,0 +1,15 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "cholla_scaling"
+version = "0.1.0"
+requires-python = ">=3.9"
+authors = [
+  {name = "Matthew Abruzzo", email = "matthewabruzzo@gmail.com" },
+]
+# I need to revisit the following
+dependencies = []
+
+
