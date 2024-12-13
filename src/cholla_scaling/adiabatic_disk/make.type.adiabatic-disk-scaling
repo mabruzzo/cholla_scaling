@@ -1,12 +1,13 @@
 MPI_GPU = -DMPI_GPU
-#DFLAGS += -DPARTICLES
-#DFLAGS += -DPARTICLES_GPU
-#DFLAGS += -DPARTICLE_IDS
-#DFLAGS += -DPARTICLE_AGE
+DFLAGS += -DPARTICLES
+DFLAGS += -DPARTICLES_GPU
+DFLAGS += -DPARTICLE_IDS
+DFLAGS += -DPARTICLE_AGE
 #DFLAGS += -DFEEDBACK  #this flag requires PARTICLE_AGE, PARTICLE_IDS
 #DFLAGS += -DNO_WIND_FEEDBACK
 ##DFLAGS += -DNO_SN_FEEDBACK
 #DFLAGS += -DANALYSIS
+# The following was commented in the original version of this file
 #DFLAGS += -DPARTICLES_KDK
 
 #Set the MPI Processes grid [nproc_x, nproc_y, nproc_z]
